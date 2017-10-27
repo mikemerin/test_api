@@ -4,8 +4,6 @@ class CreateArtists < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :origin
       t.string :genre
-      t.string :start_year
-      t.string :end_year
 
       t.timestamps
     end
